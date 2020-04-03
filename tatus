@@ -1,0 +1,23 @@
+[33mcommit 00b1429e635fc10a8153468c6b0636fddeb1bf3d[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/animation_container[m[33m)[m
+Author: MarcosOtake <marcosotake@gmail.com>
+Date:   Fri Apr 3 00:32:59 2020 -0300
+
+    AnimatedContainer
+
+[33mcommit 3dc2071e23e7bbab3ca3542b39cbad4d5a52eb78[m[33m ([m[1;31morigin/physics_simulation[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: MarcosOtake <marcosotake@gmail.com>
+Date:   Thu Apr 2 15:52:28 2020 -0300
+
+    Physics Simulation Animation
+
+[33mcommit 65bdf0da4c34df5367579f2ae0062f35b72ed277[m
+Author: MarcosOtake <marcosotake@gmail.com>
+Date:   Thu Apr 2 15:15:59 2020 -0300
+
+    new base project animation
+
+[33mcommit 506cc4db8ed59f218d98bdfbd55fe482398e8df6[m
+Author: MarcosOtake <marcosotake@gmail.com>
+Date:   Thu Apr 2 10:39:08 2020 -0300
+
+    start flutter project
