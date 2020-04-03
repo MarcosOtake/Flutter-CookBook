@@ -1,10 +1,5 @@
 # flutter_cookbook
 
-
-
-
-![video git PhysicsSimulation](https://user-images.githubusercontent.com/26884820/78317815-b0527100-7539-11ea-9d50-0e8baaaddfcb.gif)
-
 A new Flutter project.
 
 ## Getting Started
