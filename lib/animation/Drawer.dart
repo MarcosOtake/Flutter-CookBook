@@ -42,7 +42,7 @@ class MyHomePage extends StatelessWidget {
             ),
            
             ListTile(
-              title: Text('Item 1',style: TextStyle(fontSize: 30),),
+              title: Text('Item 1',style: TextStyle(fontSize: 30),),             
               onTap: () {
                 // Update the state of the app
                 // ...
@@ -52,7 +52,7 @@ class MyHomePage extends StatelessWidget {
             ),
              Divider(
               color: Colors.grey,
-                thickness: 2.0,
+                thickness: 2.0,                
                ),
             ListTile(
               title: Text('Item 2',style: TextStyle(fontSize: 30)),
