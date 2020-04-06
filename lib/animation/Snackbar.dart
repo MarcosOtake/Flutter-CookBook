@@ -25,7 +25,7 @@ class SnackBarPage extends StatelessWidget {
       child: RaisedButton(
         onPressed: () {
           final snackBar = SnackBar(
-            content: Text('Aviso sobre Ação Exeutada'),
+            content: Text('Aviso sobre Ação Executada'),
             action: SnackBarAction(
               label: 'Desfazer',
               onPressed: () {
