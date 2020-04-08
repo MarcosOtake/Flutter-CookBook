@@ -21,9 +21,45 @@ class TabBarDemo extends StatelessWidget {
           ),
           body: TabBarView(
             children: [
-              Icon(Icons.directions_car,size: 80),
-              Icon(Icons.directions_transit,size: 80),
-              Icon(Icons.directions_bike,size: 80),
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: <Widget>[              
+                Icon(Icons.directions_car,size: 80, color: Colors.indigo,),
+                Text("Car Page",style: TextStyle(
+                  fontSize: 40,
+                  color: Colors.indigo,
+                  fontStyle: FontStyle.italic
+                  ),
+                  ),
+              ],
+              ), 
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: <Widget>[              
+                Icon(Icons.directions_transit,size: 80,color: Colors.red,),
+                Text("Subway Page",style: TextStyle(
+                  fontSize: 40,
+                  color: Colors.red,
+                  fontStyle: FontStyle.italic
+                  ),
+                  ),
+              ],
+              ), 
+              Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: <Widget>[              
+               Icon(Icons.directions_bike,size: 80,color: Colors.green,),
+               Text("Bicycle Page",style: TextStyle(
+                  fontSize: 40,
+                  color: Colors.green,
+                  fontStyle: FontStyle.italic
+                  ),
+                  ),
+                ],
+              ), 
             ],
           ),
         ),
