@@ -20,16 +20,18 @@ class ExDismissibleWidgetState extends State<ExDismissibleWidget> {
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: title,
+      title: title,      
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
+        //backgroundColor: Colors.blue,
         appBar: AppBar(
           centerTitle: true,
           title: Text(title),
         ),
-        body: ListView.builder(         
+        body: 
+          ListView.builder(         
           itemCount: items.length,
           itemBuilder: (context, index) {
             final item = items[index];
@@ -61,7 +63,7 @@ class ExDismissibleWidgetState extends State<ExDismissibleWidget> {
                     size: 35,
                     ),
                   trailing: Icon(Icons.delete_forever,
-                    color:Colors.red,
+                   color:Colors.red,
                     size: 35,
                   ),
                   title: Center(
