@@ -56,16 +56,7 @@ class ExDismissibleWidgetState extends State<ExDismissibleWidget> {
               child: Card(  
                 shape: OutlineInputBorder(borderRadius:BorderRadius.circular(15) ),              
                 child: ListTile(
-                  contentPadding: EdgeInsets.all(8),
-                  leading: Icon(
-                    Icons.delete_forever,
-                    color:Colors.red,
-                    size: 35,
-                    ),
-                  trailing: Icon(Icons.delete_forever,
-                   color:Colors.red,
-                    size: 35,
-                  ),
+                  contentPadding: EdgeInsets.all(8),                  
                   title: Center(
                     child: Text('$item',
                     style: TextStyle(
