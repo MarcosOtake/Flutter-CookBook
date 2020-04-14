@@ -9,7 +9,8 @@
 
 
 
-## Getting Started.
+## Getting Started. 
+Tested examples available in the cookbook folder of projects separated by class, have fun !!!
 
 This project is a starting point for a Flutter application.
 
