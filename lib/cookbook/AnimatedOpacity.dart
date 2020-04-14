@@ -62,7 +62,7 @@ class _ExempleOpacityState extends State<ExempleOpacity> {
         backgroundColor: Colors.red,
         onPressed: () {          
           setState(() {
-              _visible = !_visible;
+             _visible = !_visible;
           });                 
         },
         tooltip: 'Toggle Opacity',
