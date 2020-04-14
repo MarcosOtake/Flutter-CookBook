@@ -1,5 +1,4 @@
 import 'dart:math';
-
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
@@ -24,7 +23,7 @@ class ExCustomScrollView extends StatelessWidget {
               // Provide a standard title.
               title:Text(                
                   title,style: TextStyle(fontSize:20),
-                  ),
+              ),
               // Allows the user to reveal the app bar if they begin scrolling
               // back up the list of items.
               floating: true,
@@ -32,9 +31,9 @@ class ExCustomScrollView extends StatelessWidget {
               flexibleSpace: Image.asset('image/emo2.png'),
               // Make the initial height of the SliverAppBar larger than normal.
               expandedHeight: 200,
-            ),
-            // Next, create a SliverList
-            SliverList(
+              ),
+              // Next, create a SliverList
+              SliverList(
               // Use a delegate to build items as they're scrolled on screen.
               delegate: SliverChildBuilderDelegate(
                 // The builder function returns a ListTile with a title that
