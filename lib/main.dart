@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_cookbook/cookbook/DataFromInternet.dart';
+import 'package:flutter_cookbook/cookbook/SendDataInternet.dart';
+//import 'package:flutter_cookbook/cookbook/DataFromInternet.dart';
 //import 'package:flutter_cookbook/cookbook/TodoInformation.dart';
 //import 'package:flutter_cookbook/cookbook/TwoRoutePage.dart';
 //import 'package:flutter_cookbook/cookbook/HeroApp.dart';
@@ -23,7 +24,7 @@ import 'package:flutter_cookbook/cookbook/DataFromInternet.dart';
 void main() {
   runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: DataFromInternet(),    
+    home: SendDataInternet(),    
     ),
   );
 }
