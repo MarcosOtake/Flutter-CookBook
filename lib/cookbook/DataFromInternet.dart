@@ -50,9 +50,7 @@ class Album {
 
 
 class DataFromInternet extends StatefulWidget {
-  DataFromInternet({Key key}) : super(key: key);
-
-  TextEditingController  _cepEdit = TextEditingController();
+  DataFromInternet({Key key}) : super(key: key); 
 
   @override
   _DataFromInternetState createState() => _DataFromInternetState();
